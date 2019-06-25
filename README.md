@@ -16,7 +16,7 @@ primary | 初级算法
 
 包名 | 说明
  ---|---
-primary | 初级算法
+array | 数组
 
 
 
