@@ -1,10 +1,7 @@
 package com.rencc.leetcode.primary.array;
 
-import com.sun.tools.javac.util.ArrayUtils;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * @title 两个数组的交集 II
