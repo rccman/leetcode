@@ -31,6 +31,7 @@ CSDN：[加了白糖的老干妈](https://blog.csdn.net/qq_21358931/article/deta
             - String37 ---------------- 字符串转换整数 (atoi)
             - String38 ---------------- 实现strStr()
             - String39 ---------------- 报数
+            - String40 ---------------- 最长公共前缀
             
 ```
 
