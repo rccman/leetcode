@@ -21,7 +21,20 @@ package com.rencc.leetcode.primary.linklist;
  **/
 public class LinkList42 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        int i = 0;
-        return null;
+        ListNode tmpListNode = new ListNode(0);
+        tmpListNode.next = head;
+        ListNode first = head;
+        int length = 0;
+        while (first!=null){
+            length++;
+            first = first.next;
+        }
+        length = length-n;
+        first = tmpListNode;
+        for (int i = 0; i < length; i++) {
+            first = first.next;
+        }
+        first.next = first.next.next;
+        return tmpListNode.next;
     }
 }
